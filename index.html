@@ -11,22 +11,34 @@
 <body>
     <section>
         <div class="speed">
-            <p>Speed :</p>
+            <p>Speed :
+
+                <input type="radio" id="X1" class="speedChosen" name="speed" value="1" checked="checked">
+                <label for="X1">X1</label>
+                <input type="radio" id="X2"  class="speedChosen" name="speed" value="2">
+                <label for="X2">X2</label>
+                <input type="radio" id="X4"  class="speedChosen" name="speed" value="4">
+                <label for="X4">X4</label>
+                <button id="submit">Submit</button>
+
+            </p>
         </div>
     </section>
     <main>
-    <div class="cube">
-        <div>
-            <span style="--i:0;">
-            <img src="zemmourouuu.png" alt="zemmour">
-        </span>
-            <span style="--i:1;"></span>
-            <span style="--i:2;"></span>
-            <span style="--i:3;"></span>
+        <div class="cube">
+            <div>
+                <span style="--i:0;">
+                    <img src="zemmourouuu.png" alt="zemmour">
+                </span>
+                <span style="--i:1;"></span>
+                <span style="--i:2;">
+                    <img src="macron.jpg" alt="macron">
+                </span>
+                <span style="--i:3;"></span>
+            </div>
         </div>
-    </div>
-    <script src="script.js"></script>
-</main>
+        <script src="script.js"></script>
+    </main>
 </body>
 
 </html>
